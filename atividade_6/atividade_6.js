@@ -8,8 +8,9 @@ var tesoura = 3;
 
 maquina = Math.random() * (4 - 1) + 1; 
 
-alert("Escolha!!! Jo...Ken...Po!!!\n 1- Pedra\n 2- Papel\n 3- Tesoura")
-player = prompt("Vamos jogar JoKenPo escolha um numero!!!");
+
+player = prompt("Escolha!!! Jo...Ken...Po!!!\n 1- Pedra\n 2- Papel\n 3- Tesoura");
+
 
 player == maquina ? alert("Empate! De novo!"
 ) : (player == 1 && maquina == 2) ? alert("Você Perdeu!"
