@@ -17,4 +17,4 @@ player === maquina ? alert("Empate! De novo!"
 ) : (player === 3 && maquina === 1) ? alert("você Perdeu!!!"
 ) : (player === 1 && maquina === 3) ? alert("Você Ganhou!"
 ) : (player === 2 && maquina === 1) ? alert("Vecê Ganhou!!"
-) : (player === 3 && maquina === 2) ? alert("você Ganhou!!!");
+) : (player === 3 && maquina === 2) ? alert("você Ganhou!!!"): alert("So que não!!!");
