@@ -11,25 +11,18 @@ maquina = Math.random() * (4 - 1) + 1;
 alert("Escolha!!! Jo...Ken...Po!!!\n 1- Pedra\n 2- Papel\n 3- Tesoura")
 player = prompt("Vamos jogar JoKenPo escolha um numero!!!");
 
-player == maquina ? alert("Empate! De novo!") : (player == 1 && maquina == 2) ? alert("Você Perdeu!"
-) : (player == 2 && maquina == 3) ? alert("Vecê Pedeu!!"
-) : (player == 3 && maquina == 1) ? alert("você Perdeu!!!"
-) : (player == 1 && maquina == 3) ? alert("Você Ganhou!"
-) : (player == 2 && maquina == 1) ? alert("Vecê Ganhou!!"
-) : (player == 3 && maquina == 2) ? alert("você Ganhou!!!");
-
-if (player == maquina) {
+if (player === maquina) {
     alert("Empate! De novo!");
-} else if (player == 1 && maquina == 2) {
+} else if (player === 1 && maquina === 2) {
     alert("Você Perdeu!");
-} else if (player == 2 && maquina == 3) {
+} else if (player === 2 && maquina === 3) {
     alert("Você Perdeu!");
-} else if (player == 3 && maquina == 1) {
+} else if (player === 3 && maquina === 1) {
     alert("Você Perdeu!");
-} else if (player == 1 && maquina == 3) {
+} else if (player === 1 && maquina === 3) {
     alert("Você ganhou!");
-} else if (player == 2 && maquina == 1) {
+} else if (player === 2 && maquina === 1) {
     alert("Você ganhou!");
-} else if (player == 3 && maquina == 2) {
+} else (player === 3 && maquina === 2) {
     alert("Você ganhou!");
 }
