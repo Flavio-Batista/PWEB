@@ -8,14 +8,16 @@
 </head>
 <body>
     <script>
-        prompt("digite altura e a base")
+        x = prompt("digite altura");
+        y = prompt("digire a base");
         function Retangulo(x, y) {
             this.base = x;
             this.altura = y;
-            area : function area() {
-                alert(this.x * this.y); 
+            this.area = function() {
+                alert(this.x * this.y);
             }
         }
+        
     </script>
 </body>
 </html>
