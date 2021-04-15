@@ -8,15 +8,21 @@
 </head>
 <body>
     <script>
-        x = prompt("digite altura");
-        y = prompt("digire a base");
+        
         function Retangulo(x, y) {
+           
             this.base = x;
             this.altura = y;
-            this.area = function() {
-                alert(this.x * this.y);
+            area = function() {
+               alert(this.base * this.altura);
             }
         }
+        
+        var x = prompt("digite altura");
+        var y = prompt("digire a base");
+        
+        var ret = new Retangulo(x, y);
+        toInt(alert(Retangulo.area));
         
     </script>
 </body>
